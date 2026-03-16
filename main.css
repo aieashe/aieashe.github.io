@@ -1,0 +1,199 @@
+
+/* global ruling */
+
+body {
+  background-image: url("https://i.imgur.com/ajxlXwg.jpeg");
+  background-repeat: repeat;
+  font-family:'Lato', Arial, Helvetica, sans-serif;
+  font-size:14px;
+  text-shadow:0px 0px 1px #bbb;
+  color:#EF6A6D;
+  letter-spacing:1px;
+  margin:0;
+  padding:0;
+}
+
+.matemasie-regular {
+  font-family: "Matemasie", sans-serif;
+  font-weight:400;
+}
+
+/* links */
+
+a { text-decoration:none; color:#666; font-weight:bold; }
+a:hover { color:#F07671; }
+
+b { color:#D46666; font-weight:bold; }
+i { font-style:italic; color:#aaa; }
+u { color:#daac5c; text-decoration:none; }
+
+/* layout and header */
+
+#layout { 
+  width:940px; 
+  margin: 10px auto;
+}
+
+#header {
+  width:940px;
+  margin:0 auto;
+  border-bottom:1px solid #FFADA5;
+  text-align:center;
+}
+
+#sitename a {
+  font-family: "Matemasie", cursive;
+  font-size:48px;
+  letter-spacing:2px;
+  color:#F07671;
+  text-decoration:none;
+  display:inline-block;
+  padding-top:6px;
+  text-shadow:0px 1px 0px #fff, 0px 0px 6px rgba(240,118,113,0.4);
+}
+
+/* nav */
+
+#navigation {
+  width:720px;
+  margin:0 auto 10px auto;
+  text-align:center;
+  padding-top:1px;
+}
+
+#navigation a {
+  min-width:80px;
+  display:inline-block;
+  background:#FCDAD6;
+  font:bold 14px 'Pixelify Sans', sans-serif;
+  text-transform:uppercase;
+  padding:4px;
+  letter-spacing:2px;
+  color:#D46666;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  margin-right:2px;
+}
+
+#navigation a:hover {
+  background:#fff;
+  color:#F07671;
+}
+
+/* column */
+
+#left, #content, #right {
+  float:left;
+  padding:6px;
+  box-sizing:border-box;
+}
+
+#left { width:25%; color:#5a5a5a; }
+#content { width:50%; color:#656565; }
+#right { width:25%; color:#5a5a5a; }
+
+/* boxes */
+
+.box, .box-without-title {
+  background:#fff;
+  border:1px solid #FFADA5;
+  box-shadow:5px 6px #FCDAD6;
+  border-radius:0 0 5px 5px;
+  padding:8px;
+  margin-bottom:8px;
+}
+
+.box-without-title {
+  border-top:1px solid #FFADA5;
+}
+
+/* titles */
+
+.title {
+  font-family:"Matemasie", sans-serif;
+  font-size:14px;
+  text-transform:uppercase;
+  color:#fff;
+  background:#FFADA5;
+  letter-spacing:3px;
+  padding:4px 8px 2px;
+  margin-bottom:0px;
+  border-radius:5px 5px 0 0;
+}
+
+/* menu */
+
+#menu a {
+  display:block;
+  width:150px;
+  background:#F07671;
+  color:#fff;
+  padding:3px;
+  margin-bottom:4px;
+  font:bold 11px 'Pixelify Sans', sans-serif;
+  text-align:center;
+  text-transform:lowercase;
+  letter-spacing:2px;
+  border-radius:5px;
+}
+
+#menu a:hover {
+  background:#FCDAD6;
+  color:#F07671;
+}
+
+/* footer */
+
+#footer {
+  width:720px;
+  margin:0 auto;
+  text-align:center;
+  clear:both;
+  padding:10px 0;
+}
+
+#sitename img {
+  height: 200px;
+  width: auto;
+}
+
+input, textarea{
+width:100%;
+margin-bottom:6px;
+}
+
+img.img-auto {
+    width: 100%;
+    height: auto;
+}
+
+/* blog doc */
+
+.post{
+background:white;
+border:1px solid #FFADA5;
+padding:12px;
+margin-bottom:20px;
+box-shadow:5px 6px #FCDAD6;
+position:relative;
+}
+
+/* document header */
+
+.post-title{
+font-family:'Lato', sans-serif;
+font-size:12px;
+margin-bottom:6px;
+}
+
+/* document line */
+
+.post:before{
+content:"";
+position:absolute;
+left:0;
+top:0;
+height:100%;
+width:4px;
+background:#FFD6D0;
+}
