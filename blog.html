@@ -5,13 +5,14 @@
 <title>Blog</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
 <style>
 
 body{
 background-image:url("https://i.imgur.com/ajxlXwg.jpeg");
-font-family:"Matemasie";
-font-size:10px;
+font-family:'Lato', sans-serif;
+font-size:12px;
 color:#EF6A6D;
 margin:0;
 }
@@ -26,19 +27,45 @@ padding:5px;
 margin:2px;
 text-decoration:none;
 color:#D46666;
-}
-
-.box{
-background:white;
-border:1px solid #FFADA5;
-padding:8px;
-margin-bottom:14px;
+font-family:"Matemasie";
 }
 
 .title{
 background:#FFADA5;
 color:white;
 padding:4px;
+font-family:"Matemasie";
+}
+
+/* BLOG DOCUMENT STYLE */
+
+.post{
+background:white;
+border:1px solid #FFADA5;
+padding:12px;
+margin-bottom:20px;
+box-shadow:5px 6px #FCDAD6;
+position:relative;
+}
+
+/* document header */
+
+.post-title{
+font-family:"Matemasie";
+font-size:14px;
+margin-bottom:6px;
+}
+
+/* fake document line */
+
+.post:before{
+content:"";
+position:absolute;
+left:0;
+top:0;
+height:100%;
+width:4px;
+background:#FFD6D0;
 }
 
 </style>
@@ -59,14 +86,58 @@ padding:4px;
 
 <div class="title">blog</div>
 
-<div class="box">
-<b>March 2026</b><br>
+<!-- POST 1 -->
+
+<div class="post">
+
+<div class="post-title">March 2026</div>
+
 Started building my portfolio website and experimenting with HTML layouts.
+Learning how CSS affects layout spacing and fonts.
+
 </div>
 
-<div class="box">
-<b>February 2026</b><br>
-Working on new illustration projects and improving my design workflow.
+<!-- POST 2 -->
+
+<div class="post">
+
+<div class="post-title">February 2026</div>
+
+Working on new illustration projects and practicing character design.
+Trying to refine color palettes and lighting.
+
+</div>
+
+<!-- POST 3 -->
+
+<div class="post">
+
+<div class="post-title">January 2026</div>
+
+Started learning more about web design and layout structure.
+Looking at different portfolio websites for inspiration.
+
+</div>
+
+<!-- POST 4 -->
+
+<div class="post">
+
+<div class="post-title">December 2025</div>
+
+Sketching concepts for personal projects and experimenting with
+different illustration styles.
+
+</div>
+
+<!-- POST 5 -->
+
+<div class="post">
+
+<div class="post-title">November 2025</div>
+
+Brainstorming ideas for my portfolio and organizing old design work.
+
 </div>
 
 </div>
