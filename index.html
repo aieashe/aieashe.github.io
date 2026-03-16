@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ash Sheehkhnur — portfolio</title>
+<title>SA DA — portfolio</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +13,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
 
 <style>
+/* GLOBAL */
+html { scroll-behavior: smooth; }
+
 body {
   background-image: url("https://i.imgur.com/ajxlXwg.jpeg");
   background-repeat: repeat;
@@ -25,11 +28,7 @@ body {
   margin:0;
   padding:0;
 }
-.matemasie-regular {
-  font-family: "Matemasie", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+.matemasie-regular { font-family: "Matemasie", sans-serif; font-weight: 400; font-style: normal; }
 
 a { text-decoration:none; color:#666; font-weight:bold; }
 a:hover { color:#F07671; }
@@ -40,95 +39,40 @@ u { color:#daac5c; text-decoration:none; }
 #layout { width:720px; margin:80px auto; }
 
 /* HEADER */
-#header {
-  width:720px;
-  margin:0 auto;
-  height:40px;
-  border-bottom:1px solid #FFADA5;
-  text-align:center;
-}
+#header { width:720px; margin:0 auto; height:40px; border-bottom:1px solid #FFADA5; text-align:center; }
 #header img { vertical-align:middle; }
 #sitename a { font:30px 'matemasie-regular', courier new; color:#F07671; vertical-align:middle; }
 
 /* NAVIGATION */
-#navigation {
-  width:720px;
-  margin:0 auto 10px auto;
-  text-align:center;
-  padding-top:1px;
-}
+#navigation { width:720px; margin:0 auto 10px auto; text-align:center; padding-top:1px; }
 #navigation a {
-  width:80px;
-  display:inline-block;
-  background:#FCDAD6;
-  font:bold 9px 'matemasie-regular', monospace, georgia;
-  text-transform:uppercase;
-  padding:4px;
-  letter-spacing:3px;
-  color:#D46666;
-  border-bottom-left-radius:5px;
-  border-bottom-right-radius:5px;
-  margin-right:2px;
+  width:80px; display:inline-block; background:#FCDAD6; font:bold 9px 'matemasie-regular', monospace, georgia;
+  text-transform:uppercase; padding:4px; letter-spacing:3px; color:#D46666;
+  border-bottom-left-radius:5px; border-bottom-right-radius:5px; margin-right:2px;
 }
-#navigation a:hover {
-  background:#fff;
-  color:#F07671;
-}
+#navigation a:hover { background:#fff; color:#F07671; }
 
 /* COLUMNS */
-#left, #content, #right {
-  float:left;
-  padding:6px;
-  box-sizing:border-box;
-}
+#left, #content, #right { float:left; padding:6px; box-sizing:border-box; }
 #left { width:180px; color:#5a5a5a; }
 #content { width:360px; color:#656565; }
 #right { width:180px; color:#5a5a5a; }
 
 /* BOXES */
 .box, .box-without-title {
-  background:#fff;
-  border:1px solid #FFADA5;
-  box-shadow:5px 6px #FCDAD6;
-  border-radius:0 0 5px 5px;
-  padding:8px;
-  margin-bottom:14px;
+  background:#fff; border:1px solid #FFADA5; box-shadow:5px 6px #FCDAD6; border-radius:0 0 5px 5px;
+  padding:8px; margin-bottom:14px;
 }
 .box-without-title { border-top:1px solid #FFADA5; }
-.title {
-  text-transform:uppercase;
-  color:#fff;
-  background:#FFADA5;
-  letter-spacing:3px;
-  padding:4px 8px 2px;
-  margin-bottom:0px;
-  border-radius:5px 5px 0 0;
-}
+.title { text-transform:uppercase; color:#fff; background:#FFADA5; letter-spacing:3px; padding:4px 8px 2px; margin-bottom:0px; border-radius:5px 5px 0 0; }
 
 /* MENU */
-#menu a {
-  display:block;
-  width:150px;
-  background:#F07671;
-  color:#fff;
-  padding:2px;
-  margin-bottom:4px;
-  font:bold 12px georgia, monospace;
-  text-align:center;
-  text-transform:lowercase;
-  letter-spacing:3px;
-  border-radius:5px;
-}
+#menu a { display:block; width:150px; background:#F07671; color:#fff; padding:2px; margin-bottom:4px; font:bold 12px georgia, monospace; text-align:center; text-transform:lowercase; letter-spacing:3px; border-radius:5px; }
 #menu a:hover { background:#FCDAD6; color:#F07671; }
 
 /* FOOTER */
-#footer {
-  width:720px;
-  margin:0 auto;
-  text-align:center;
-  clear:both;
-  padding:10px 0;
-}
+#footer { width:720px; margin:0 auto; text-align:center; clear:both; padding:10px 0; }
+
 </style>
 </head>
 
@@ -138,63 +82,44 @@ u { color:#daac5c; text-decoration:none; }
   <!-- HEADER -->
   <div id="header">
     <div id="sitename">
-
-      <!--NAME-->
-      <a href="">Ash</a>
-
+      <a href="#home">Sa</a>
     </div>
   </div>
 
   <!-- NAVIGATION -->
   <div id="navigation">
-
-    <!--links ?? -->
-<div id="navigation">
-
-<a href="#home">home</a>
-<a href="#portfolio">portfolio</a>
-<a href="#blog">blog</a>
-<a href="#about">about</a>
-<a href="#contact">contact</a>
-<a href="#resume">resume</a>
-
-</div>
+    <a href="#home">home</a>
+    <a href="#portfolio">portfolio</a>
+    <a href="#blog">blog</a>
+    <a href="#about">about</a>
+    <a href="#contact">contact</a>
+    <a href="#resume">resume</a>
+  </div>
 
   <!-- LEFT COLUMN -->
   <div id="left">
 
-    <!-- PROFILE IMAGE -->
     <div class="box-without-title">
       <center>
         <img src="https://i.imgur.com/e5uLlNy.png" width="150">
       </center>
     </div>
 
-    <!-- QUICK BIO -->
     <div class="title matemasie-regular">about me</div>
     <div class="box">
-
-      <b>Ash</b> — designer / creative.<br><br>
-
-      <!--BIO-->
-      Ash is a professional graphic designer in media, focusing on visual storytelling, brand identity, and creative design. With a media background in freelance, Ash has gained experience by working with a range of clients—delivering projects with not only creativity but also functionality. Their work is centered on having an understanding of finer details and design principles and having a drive for both business and creative objectives.
-
+      <b>Sa</b> — designer / creative.<br><br>
+      Sa is a professional graphic designer in media, focusing on visual storytelling, brand identity, and creative design. 
       <br><br>
-
       Exploring:
       <ul>
         <li>Web Design</li>
         <li>Digital Illustration</li>
         <li>Graphic Design</li>
       </ul>
-
     </div>
 
-    <!-- SKILLS -->
     <div class="title matemasie-regular">skills</div>
     <div class="box">
-
-      <!-- Skills -->
       Photoshop<br>
       Illustrator<br>
       InDesign<br>
@@ -203,7 +128,6 @@ u { color:#daac5c; text-decoration:none; }
       Figma<br>
       HTML / CSS<br>
       Visual design
-
     </div>
 
   </div>
@@ -211,33 +135,108 @@ u { color:#daac5c; text-decoration:none; }
   <!-- CENTER COLUMN -->
   <div id="content">
 
-    <!-- FEATURED PROJECT -->
-    <div class="title matemasie-regular">featured project</div>
-    <div class="box">
+    <!-- HOME -->
+    <div id="home">
+      <div class="title matemasie-regular">featured project</div>
+      <div class="box">
+        <b>Project Title</b><br><br>
+        Short description of the project.<br><br>
+        <a href="">view project</a>
+      </div>
 
-      <b>Project Title</b><br><br>
-
-      short description of project / tools used / goal / etc
-  
-
-      <br><br>
-
-      <a href="">view project</a>
-
+      <div class="title matemasie-regular">recent work</div>
+      <div class="box">
+        Project 1 – description<br>
+        Project 2 – description<br>
+        Project 3 – description
+      </div>
     </div>
 
-    <!-- PORTFOLIO SECTION -->
-    <div class="title matemasie-regular">recent work</div>
-    <div class="box">
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+      <div class="title matemasie-regular">portfolio</div>
+      <div class="box">
+        <b>Project 1</b><br>
+        <img src="images/project1.jpg" width="100%"><br><br>
+        Short description of project.
+        <hr>
+        <b>Project 2</b><br>
+        <img src="images/project2.jpg" width="100%"><br><br>
+        Short description of project.
+      </div>
+    </div>
 
-      Project 1 - description<br>
-      Project 2 - description<br>
-      Project 3 - description<br>
+    <!-- BLOG -->
+    <div id="blog">
+      <div class="title matemasie-regular">blog</div>
+      <div class="box">
+        <b>Blog Post Title</b><br>
+        <i>March 2026</i><br><br>
+        Blog preview text.<br><br>
+        <a href="">read more</a>
+      </div>
+      <div class="box">
+        <b>Another Post</b><br>
+        <i>February 2026</i><br><br>
+        Blog preview text.<br><br>
+        <a href="">read more</a>
+      </div>
+    </div>
 
-      <br>
+    <!-- ABOUT -->
+    <div id="about">
+      <div class="title matemasie-regular">about</div>
+      <div class="box">
+        <img src="images/profile.png" width="120"><br><br>
+        <b>Sa — designer</b><br><br>
+        Longer biography about yourself.<br><br>
+        <b>Interests</b>
+        <ul>
+          <li>Web Design</li>
+          <li>Illustration</li>
+          <li>Brand Design</li>
+        </ul>
+      </div>
+    </div>
 
-      <a href="">see full portfolio</a>
+    <!-- CONTACT -->
+    <div id="contact">
+      <div class="title matemasie-regular">contact</div>
+      <div class="box">
+        <form>
+          First Name<br>
+          <input type="text" style="width:100%"><br><br>
+          Last Name<br>
+          <input type="text" style="width:100%"><br><br>
+          Email<br>
+          <input type="email" style="width:100%"><br><br>
+          Message<br>
+          <textarea rows="5" style="width:100%"></textarea><br><br>
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
+    </div>
 
+    <!-- RESUME -->
+    <div id="resume">
+      <div class="title matemasie-regular">resume</div>
+      <div class="box">
+        <b>Sa</b><br>
+        Graphic Designer<br><br>
+        <b>Education</b>
+        <ul><li>BA Graphic Design – University Name</li></ul><br>
+        <b>Experience</b>
+        <ul>
+          <li>Freelance Designer – 2023–Present</li>
+          <li>Design Internship – Studio Name</li>
+        </ul><br>
+        <b>Skills</b><br>
+        Photoshop<br>
+        Illustrator<br>
+        Figma<br>
+        HTML / CSS<br><br>
+        <a href="resume.pdf">Download Resume</a>
+      </div>
     </div>
 
   </div>
@@ -245,46 +244,31 @@ u { color:#daac5c; text-decoration:none; }
   <!-- RIGHT COLUMN -->
   <div id="right">
 
-    <!-- SOCIAL LINKS -->
     <div class="title matemasie-regular">find me</div>
     <div class="box" id="menu">
-
-      <!--Links-->
-      <a href="https://behance.net/asheekhnur">behance</a>
-      <a href="https://linkedin.com/in/ash-sheekhnur-1865b5387/">linkedin</a>
-      <a href="https://instagram.com/ashmediacomm">instagram</a>
-
+      <a href="https://behance.net/">behance</a>
+      <a href="https://linkedin.com/">linkedin</a>
+      <a href="https://instagram.com/">instagram</a>
     </div>
 
-    <!-- CONTACT -->
     <div class="title matemasie-regular">contact</div>
     <div class="box">
-
-      Email:<br>
-      asheekhnur@gmail.com
-
-      <br><br>
-
-      Available for:
-      <br>
-      freelance<br>
-      collaborations<br>
-      internships
-
+      Email:<br>sa@gmail.com<br><br>
+      Available for:<br>freelance<br>collaborations<br>internships
     </div>
 
-    <!-- CURRENTLY TO BE REPLACED -->
     <div class="title matemasie-regular">currently</div>
     <div class="box">
-
       studying design<br>
       building portfolio<br>
       learning web development
-
     </div>
 
   </div>
 
- 
+  <div style="clear:both;"></div>
+  <div id="footer">© 2026 Sa DA</div>
+
+</div>
 </body>
 </html>
